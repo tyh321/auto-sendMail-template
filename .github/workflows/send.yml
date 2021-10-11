@@ -1,0 +1,14 @@
+# name: sendMail
+
+# on:
+#   schedule:
+#     - cron: "00 2 * * *" # 该时间为UTC时间，比北京时间晚8个小时 当前设置为十点
+
+# jobs:
+#   send:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/setup-node@v1
+#       - name: Run Project
+#         run: npm install && npm run server
